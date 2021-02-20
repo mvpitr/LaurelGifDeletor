@@ -15,11 +15,6 @@
   });
 
 
-
-
-
-
-
   client.on('message', (message) => { //whenever a message is sent
     var userId = message.author.id;
     console.log(`User identified as ${userId}.`);
@@ -77,8 +72,6 @@
    }
   }
   });
-
-
 
 
   client.login('YOUR-TOKEN-HERE');
